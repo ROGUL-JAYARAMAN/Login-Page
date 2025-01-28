@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --letter-color:rgb(76, 76, 76);
+    --bg-color:rgba(0, 255, 187, 0.482);
+}
+
+.Login-Container{ 
+    /* center alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-color: rgba(0, 255, 187, 0.482);
+}
+.Login-Wrapper_Main{
+    background-color: rgba(255, 255, 255, 0.526) ;
+    box-shadow: 0px 0px 15px rgba(162, 162, 162, 0.608);
+    border-radius: 5px;
+    /* alignment */
+    margin-top: -10vh;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    aspect-ratio: 5/5;
+    padding: 15px 0px;
+}
+.Login-Title{
+    /* alignments */
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    /* font */
+    font-size: larger;
+    text-align: center;
+    font-weight: 600;
+    font-family: Poppins;
+    padding-bottom: 1.2rem;
+    color: var(--letter-color   );
+}
+.Login-Input{
+    padding-bottom: 1.2rem;
+}
+.Login-Input .Login-IP-title{
+    /* font */
+    font-size:medium;
+    font-family: Poppins;
+    font-size: 0.85rem;
+    letter-spacing: 0.4px;
+    color: var(--letter-color);
+}
+.Login-Input input{
+    /* box decoration */
+    margin-top: 3px;
+    width: 300px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    /* font style */
+    font-family: Poppins;
+    font-size: 0.9rem;
+}
+.Login-ForgotPassword{
+    font-family: Poppins;
+    font-size: 0.8rem;
+    letter-spacing: 0.2px;
+    display: flex;
+    gap: 3px;
+}
+.Login-btn{
+    padding-top: 20px;
+}
+.Login-btn button{
+    /* Btn style */
+    width: 100%;
+    height: max-content;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid gray;
+
+    /* btn font */
+    font-family: Poppins;
+    font-size: 0.9rem;
+    padding: 5px;
+}
+.Login-orDivider{
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+}
+.Login-orContent{
+    font-family: Poppins;
+    font-size: 0.8rem;
+}
+.Login-orContent::after{
+    content: '';
+    position: absolute;
+    top: 55%;
+    right: 0%;
+    width: 45%;
+    height: 0.5px;
+    background-color: rgb(0, 0, 0);
+}
+.Login-orContent::before{
+    content: '';
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    width: 45%;
+    height: 0.5px;
+    background-color: rgb(0, 0, 0);
+}
+.Login-signUp{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    letter-spacing: 0.2px;
+    display: flex;
+    gap: 3px;
+}
+.Login-signUp a {
+    text-decoration: none;
+    color: rgb(0, 135, 133);
+}
